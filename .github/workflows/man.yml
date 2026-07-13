@@ -1,0 +1,24 @@
+name: java project
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: cloning java repo
+        uses: actions/checkout@v4
+
+      - name: install java
+        uses: actions/setup-java@v4
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+
+      - name: compile java
+        run: javac Test.java
+
+      - name: run java
+        run: java Test
