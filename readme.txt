@@ -5,8 +5,6 @@ To compile- javac Test.java
 To run- java Test.java
 
 Follow these steps to run java projects
-
-Hope you will enjoy!!
 Happy jenkins
 Trying to implement github webhook !!!!!!
 
