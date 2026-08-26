@@ -3,13 +3,7 @@ This is java file for github webhook
 To run this java file We need to compile
 To compile- javac Test.java
 To run- java Test.java
-
-
-trigger for poll scm yes it works
-
-now trying with github webhook
-its workingggggg
-
+BUild trigger
 
 
 demonstrating github webhook trigger
